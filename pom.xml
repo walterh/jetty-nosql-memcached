@@ -2,14 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.geishatokyo.jetty</groupId>
   <artifactId>jetty-nosql-memcached-parent</artifactId>
-  <version>0.6.0-SNAPSHOT</version>
+  <version>0.6.1-SNAPSHOT</version>
   <name>jetty-nosql-memcached-parent</name>
   <description>Parent projct of jetty-nosql-memcached and relating projects.</description>
   <url>https://github.com/yyuu/jetty-nosql-memcached</url>
   <packaging>pom</packaging>
   <properties>
     <jetty.version>9.3.8.v20160314</jetty.version>
-    <slf4j.version>1.7.16</slf4j.version>
+    <slf4j.version>1.7.21</slf4j.version>
     <junit.version>4.12</junit.version>
   </properties>
   <profiles>
@@ -93,17 +93,17 @@
       <dependency>
         <groupId>com.geishatokyo.jetty</groupId>
         <artifactId>jetty-nosql-kvs</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
+        <version>${version}</version>
       </dependency>
       <dependency>
         <groupId>com.geishatokyo.jetty</groupId>
         <artifactId>jetty-nosql-memcached</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
+        <version>${version}</version>
       </dependency>
       <dependency>
         <groupId>com.geishatokyo.jetty.tests</groupId>
         <artifactId>test-memcached-sessions</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
+        <version>${version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
